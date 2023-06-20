@@ -57,8 +57,8 @@ public class Main {
         Iterator<Integer> iter_list = list.iterator();
         Float sum = (float) 0;
         while (iter_list.hasNext()){
-            int i = iter_list.next();
-            sum = sum + i;
+            int item = iter_list.next();
+            sum = sum + item;
         }
         System.out.println(sum);
 
